@@ -1,0 +1,111 @@
+* {
+	border: 1px solid black;
+}
+
+.title {
+	padding: 10px;
+	font-family: Arial;
+	font-size: 4em;
+	font-weight: bolder;
+}
+
+.title-text {
+	position: relative;
+	left: 200px;
+	top: 40px;
+}
+.main {
+	background-color: #9BCEF2;
+	position: relative;
+	top: 60px;
+	width: 100%;
+	height: 600px; 
+}
+
+.screen {
+	position: relative;
+	top: 30px;
+	left: 350px;
+	padding: 15px;
+	background-color: white;
+	height: 500px;
+	width: 350px;
+	border: 2px solid #0F466E;
+}
+
+.form, .instructions {
+	border: 1px solid black;
+	font-family: arial;
+	font-size: 1.5em;
+	padding: 5px;
+	width: 330px;
+	height: 25px;
+}
+
+.item {
+	position: absolute;
+	top: 100px;
+}	
+
+.newlistitem {
+
+	border: 1px solid black;
+	font-family: arial;
+	font-size: 1.5em;
+	padding: 5px;
+	width: 330px;
+	height: 25px;
+	display: inline-block;
+}
+
+.crossed-item {
+	text-decoration: line-through;
+	color: grey;
+	border: 1px solid black;
+	font-family: arial;
+	font-size: 1.5em;
+	padding: 5px;
+	width: 330px;
+	height: 25px;
+	display: inline-block;
+}
+
+.form {
+	height: 35px;
+}
+#input-form {
+	width: 325px;
+	font-family: arial;
+	font-size: 1em;
+	color: grey;
+}
+
+.submit {
+	position: relative;
+	left: 20%;
+	font-size: 1em;
+	background-color: black;
+	color: white;
+	width: 150px;
+	border: 1px solid black;
+	position: relative;
+	top: 10px;
+}
+
+.instructions {
+	position: absolute;
+	bottom: 10px;
+	font-size: 1em;
+	height: 40px;
+
+}
+
+#instruction-text {
+	position: relative;
+	left: 30px;
+	top: 6px;
+	color: grey;
+}
+
+
+
