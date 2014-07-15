@@ -21,7 +21,9 @@
 	width: 100%;
 	height: 600px; 
 }
-
+.item {
+	
+}
 .screen {
 	position: relative;
 	top: 30px;
